@@ -555,7 +555,6 @@
 					"$(BUILT_PRODUCTS_DIR)/include",
 				);
 				INFOPLIST_FILE = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_LDFLAGS = (
 					"-framework",
 					MobileCoreServices,
@@ -590,7 +589,6 @@
 					"$(BUILT_PRODUCTS_DIR)/include",
 				);
 				INFOPLIST_FILE = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				OTHER_LDFLAGS = (
 					"-framework",
 					MobileCoreServices,
@@ -671,7 +669,7 @@
 				GCC_WARN_UNUSED_LABEL = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = XCDYouTubeKit/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = ch.pitaya.xcdyoutubekit;
@@ -689,6 +687,7 @@
 					"-Wno-pedantic",
 					"-Wno-unused-parameter",
 					"-Wno-partial-availability",
+					"-Wno-declaration-after-statement",
 				);
 			};
 			name = Debug;
@@ -744,7 +743,7 @@
 				GCC_WARN_UNUSED_LABEL = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				INFOPLIST_FILE = XCDYouTubeKit/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MACOSX_DEPLOYMENT_TARGET = 10.9;
 				PRODUCT_BUNDLE_IDENTIFIER = ch.pitaya.xcdyoutubekit;
 				PRODUCT_NAME = XCDYouTubeKit;
@@ -762,6 +761,7 @@
 					"-Wno-pedantic",
 					"-Wno-unused-parameter",
 					"-Wno-partial-availability",
+					"-Wno-declaration-after-statement",
 				);
 			};
 			name = Release;
@@ -784,7 +784,6 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				WARNING_CFLAGS = (
 					"$(inherited)",
 					"-Wno-auto-import",
@@ -798,7 +797,6 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				WARNING_CFLAGS = (
 					"$(inherited)",
 					"-Wno-auto-import",
